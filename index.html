@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop thoughtfully selected home, tech, and lifestyle essentials at MarketNest.">
+  <title>MarketNest | Everyday finds, thoughtfully chosen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A little something extra: free shipping on orders over $50</div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="MarketNest home"><span class="brand-mark">m</span>marketnest<span class="brand-dot">.</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#shop">Shop</a>
+      <a href="#categories">Categories</a>
+      <a href="#story">Our story</a>
+    </nav>
+    <div class="header-actions">
+      <form class="search" role="search" action="#shop">
+        <label class="visually-hidden" for="search-input">Search products</label>
+        <span aria-hidden="true">⌕</span>
+        <input id="search-input" type="search" placeholder="Search products">
+      </form>
+      <a class="icon-link account-link" href="#account" aria-label="Your account">♙</a>
+      <a class="cart-link" href="#cart" aria-label="Shopping bag, 2 items"><span aria-hidden="true">♧</span><span class="cart-count">2</span></a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> GOOD THINGS, FOUND HERE</p>
+        <h1 id="hero-title">Make room for<br>the <em>good stuff.</em></h1>
+        <p class="hero-description">Everyday essentials and little luxuries, picked to make life feel a bit more you.</p>
+        <a class="button button-dark" href="#shop">Explore the collection <span aria-hidden="true">→</span></a>
+        <div class="hero-note"><span class="note-icon">✳</span><span>Thoughtful finds.<br><strong>Better everyday.</strong></span></div>
+      </div>
+      <div class="hero-image" role="img" aria-label="A warm, sunlit living room with a comfortable armchair and houseplants">
+        <div class="image-label"><span>01 / 04</span><span>THE SLOW LIVING EDIT</span></div>
+        <div class="round-stamp"><span>MADE FOR<br>YOUR EVERYDAY</span><b>✳</b></div>
+      </div>
+    </section>
+
+    <section class="category-section section-wrap" id="categories" aria-labelledby="category-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">A GOOD PLACE TO START</p><h2 id="category-title">Find your kind of thing</h2></div>
+        <a class="text-link" href="#shop">Browse all categories <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card category-home" href="#shop"><span class="category-number">01</span><span class="category-name">Home & living <span>↗</span></span></a>
+        <a class="category-card category-tech" href="#shop"><span class="category-number">02</span><span class="category-name">Tech & gadgets <span>↗</span></span></a>
+        <a class="category-card category-style" href="#shop"><span class="category-number">03</span><span class="category-name">Style & accessories <span>↗</span></span></a>
+        <a class="category-card category-wellness" href="#shop"><span class="category-number">04</span><span class="category-name">Wellness <span>↗</span></span></a>
+      </div>
+    </section>
+
+    <section class="products-section" id="shop" aria-labelledby="products-title">
+      <div class="section-wrap">
+        <div class="section-heading products-heading">
+          <div><p class="eyebrow">THE CROWD-PLEASERS</p><h2 id="products-title">A few current favorites</h2></div>
+          <a class="text-link" href="#shop">Shop all products <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <a class="product-image product-lamp" href="#product-lamp" aria-label="View the Forma table lamp"><span class="product-tag">BESTSELLER</span><span class="product-art" aria-hidden="true">◉</span><span class="quick-view">Quick view <b>↗</b></span></a>
+            <div class="product-info"><div><h3>Forma table lamp</h3><p>Soft glow, solid oak</p></div><strong>$84</strong></div>
+            <div class="swatches" aria-label="Available colors"><span class="swatch swatch-sand"></span><span class="swatch swatch-green"></span><span class="swatch swatch-black"></span></div>
+          </article>
+          <article class="product-card">
+            <a class="product-image product-speaker" href="#product-speaker" aria-label="View the Pocket speaker"><span class="product-art" aria-hidden="true">◌</span><span class="quick-view">Quick view <b>↗</b></span></a>
+            <div class="product-info"><div><h3>Pocket speaker</h3><p>Big sound, little package</p></div><strong>$59</strong></div>
+            <div class="swatches" aria-label="Available colors"><span class="swatch swatch-coral"></span><span class="swatch swatch-sand"></span><span class="swatch swatch-blue"></span></div>
+          </article>
+          <article class="product-card">
+            <a class="product-image product-vase" href="#product-vase" aria-label="View the Sunday ceramic vase"><span class="product-tag tag-new">JUST IN</span><span class="product-art" aria-hidden="true">◔</span><span class="quick-view">Quick view <b>↗</b></span></a>
+            <div class="product-info"><div><h3>Sunday ceramic vase</h3><p>Hand-finished stoneware</p></div><strong>$42</strong></div>
+            <div class="swatches" aria-label="Available colors"><span class="swatch swatch-cream"></span><span class="swatch swatch-rust"></span></div>
+          </article>
+          <article class="product-card">
+            <a class="product-image product-bag" href="#product-bag" aria-label="View the Daytrip carry-all"><span class="product-art" aria-hidden="true">◇</span><span class="quick-view">Quick view <b>↗</b></span></a>
+            <div class="product-info"><div><h3>Daytrip carry-all</h3><p>Room for the little extras</p></div><strong>$68</strong></div>
+            <div class="swatches" aria-label="Available colors"><span class="swatch swatch-blue"></span><span class="swatch swatch-green"></span><span class="swatch swatch-coral"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-banner" id="story">
+      <p class="eyebrow">A LITTLE MORE INTENTION</p>
+      <h2>Fewer, better things.<br><em>More joy in the everyday.</em></h2>
+      <a class="button button-light" href="#about">Get to know us <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="about">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">m</span>marketnest<span class="brand-dot">.</span></a>
+    <p>Good things for the everyday.</p>
+    <div class="footer-links"><a href="#help">Help & contact</a><a href="#shipping">Shipping & returns</a><a href="#social">Instagram ↗</a></div>
+    <small>© 2025 MarketNest. Made for everyday living.</small>
+  </footer>
+</body>
+</html>
